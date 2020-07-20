@@ -1,0 +1,23 @@
+.bg{
+    background: url('../images/bg.jpg') no-repeat ;
+    width: 100vw;
+    height: 100vh;
+    background-color: black
+
+}
+
+.box{
+    width: 300px;
+    height: 250px;
+    background-color: rgba(255, 0, 0, 0.294)
+}
+.fig{ 
+    position: relative;
+    width: 600%;
+    bottom: 350px;
+}
+.run{ 
+    position: relative;
+    width:900%;
+    bottom: 50px;
+}
