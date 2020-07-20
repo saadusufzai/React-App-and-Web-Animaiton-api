@@ -9,6 +9,7 @@
     "@wellyshen/use-web-animations": "^0.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-key-handler": "^1.2.0-beta.3",
     "react-scripts": "3.4.1"
   },
   "scripts": {

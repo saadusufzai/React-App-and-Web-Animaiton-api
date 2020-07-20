@@ -9,15 +9,25 @@
 .box{
     width: 300px;
     height: 250px;
-    background-color: rgba(255, 0, 0, 0.294)
 }
 .fig{ 
     position: relative;
-    width: 600%;
-    bottom: 350px;
+    width: 120em;
+    bottom: 5em;
+    /* transform: translateY(-5em); */
 }
 .run{ 
     position: relative;
     width:900%;
     bottom: 50px;
+}
+
+.buttons{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20%;
+    margin-left: 5px;
 }
