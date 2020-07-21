@@ -3,10 +3,10 @@ import classes from './Animation.module.css'
 import fighter from '../images/3.png'
 import useWebApnimation from '@wellyshen/use-web-animations'
 
-import { keyHandler, KEYPRESS } from 'react-key-handler';
+
 const Animations = () => {
 
-    const {ref:figure, getAnimation } = useWebApnimation({
+    const {ref:figure } = useWebApnimation({
             keyframes:[
                 {transform:'translateX(0)'},
                 {transform:'translateX(-100%)'},
@@ -20,26 +20,7 @@ const Animations = () => {
             }
     })
    
-    const play = () => {
-        getAnimation().play();
-      };
     
-      const pause = () => {
-        figure.current.style.bottom = '5em'
-        getAnimation().pause();
-      };
-    
-      const reverse = () => {
-        getAnimation().reverse();
-      };
-    
-      const cancel = () => {
-        getAnimation().cancel();
-      };
-    
-      const finish = () => {
-        getAnimation().finish();
-      };
     
     const stay = ()=>{
 
@@ -79,6 +60,7 @@ const Animations = () => {
         },500)
     }
 
+    
    
 
     return (
